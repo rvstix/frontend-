@@ -1,0 +1,47 @@
+.container{
+	text-align: center;
+	font-family: Times New Roman;
+}
+
+.block1{
+	display: inline-block; 
+	
+}
+
+.block1 img{
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+	margin-left: 40px;
+}
+
+.block1 p{
+	background-color: orange;
+	padding: 20px 30px;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 40px;
+	color: white;
+}
+
+.block2{
+	display: inline-block;
+}
+
+.block2 img{
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+	margin-left: 40px;
+}
+
+.block2 p{
+	background-color: red;
+	padding: 20px 30px;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 40px;
+	color: white;
+
+
+}

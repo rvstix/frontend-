@@ -1,0 +1,54 @@
+body{
+	background-color: yellow;
+}
+.container{
+	text-align: center;
+}
+
+#h1_1{
+	color: purple;
+}
+
+#h1_2{
+	color: orange;
+
+}
+
+p{
+		
+}
+
+#p1_1{
+	color: white;
+	background-color: green;
+}
+
+#h2_1{
+	color: blue;
+}
+
+
+.block{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.block img{
+	width: 250px;
+	height: 200px;
+	border: 3px solid white;
+
+}
+
+.block p{
+	background-color: orange;
+	padding: 20px 40px;
+	margin-top: 40px;
+	border: 3px solid red;
+
+
+}
+

@@ -1,0 +1,32 @@
+body{
+	background-color: pink;
+}
+
+h1{
+	width: 150px
+	color: red;
+	background-color: yellow;
+
+}
+
+p{
+	color: orange;
+}
+
+a{
+	text-decoration: none;
+}
+
+#h1_1{
+	color: blue;
+
+}
+
+#h1_2{
+	color: green;
+
+}
+
+#h1_3{
+	color: red;
+}
