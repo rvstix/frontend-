@@ -1,6 +1,21 @@
+body{
+	background-image: url(image3.jpg);
+	background-color: rgba(108, 150, 255, 1);
+	background-repeat: no-repeat;
+	background-size: 1950px 1100px;
+	background-position: right bottom;
+	background-attachment: fixed;
+	/* в комменатрии background это исходник а все что через тире это его типы, 
+	поэтому все можно писать через один background*/
+	/*background: адрес до кратинки, размеры картинки, настройки цвета, повторение картиники, позиция на экране, прикрепление на экране */
+	background: url(image3.jpg) 1950px 1100px rgba(108, 150, 255, 1) no-repeat right bottom fixed ;
+}
+
+/*так пишется комменатрий в CSS*/
 .container{
 	text-align: center;
 	font-family: Times New Roman;
+
 }
 
 .block1{
@@ -16,11 +31,12 @@
 }
 
 .block1 p{
-	background-color: orange;
+	background-color: gold;
 	padding: 20px 30px;
 	margin-top: 20px;
 	margin-right: 50px;
 	margin-left: 40px;
+	border: 2px solid red;
 	color: white;
 }
 
@@ -41,7 +57,8 @@
 	margin-top: 20px;
 	margin-right: 50px;
 	margin-left: 40px;
+	border: 2px solid blue;
 	color: white;
-
-
 }
+
+
