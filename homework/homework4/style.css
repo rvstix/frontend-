@@ -1,0 +1,30 @@
+.container-3 h1+p{
+	background-color: green;
+	color: yellow;
+}
+
+.container-3 h1~p{
+	font-family: Verdana;
+	font-size: 24px;
+}
+
+#para_2{
+	background-color: yellow;
+	padding: 20px 30px;
+}
+
+.heading_2{
+	color: green;
+}
+
+.container{
+	background-color: pink;
+}
+
+.container-2{
+	text-align: center;
+}
+
+.container-3{
+	padding: 40px 20px;
+}
