@@ -1,5 +1,5 @@
 body{
-	background-color: pink;
+	background-color: green;
 }
 
 h1{
@@ -9,12 +9,34 @@ h1{
 
 }
 
-p{
-	color: orange;
+.container ul li{
+	display: inline-block;
+	margin-right: 100px;
 }
 
 a{
 	text-decoration: none;
+	color: white;
+	background-color: orange;
+	padding: 10px;
+}
+
+a:active{ /*текущая ссылка*/
+	font-size: 30px; /*при зажатии левой кнопки мыши меняет*/
+}
+
+a:link{ /*непосещенная ссылка будет изменена*/
+	
+
+}
+
+a:visited{ /*посещенная ссылка изменит цвет посещенных ссылок*/
+	background-color: grey;
+	color: black;
+}
+
+a:hover{ /*ссылка при наведении (без нажатия) куросора*/
+	background-color: pink;
 }
 
 #h1_1{
@@ -29,4 +51,8 @@ a{
 
 #h1_3{
 	color: red;
+}
+
+p:hover{
+	font-size: 50px;
 }

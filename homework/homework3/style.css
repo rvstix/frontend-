@@ -1,11 +1,43 @@
 body{
-	text-align: center;
-	background-color: rgba(100, 255, 255, 1);
-	background-image: url(../../../eye.jpg);
-	background-attachment: fixed;
-	background-repeat: repeat-x;
-	background-position: left bottom;
+	/*background size  не входит в список свойств-значений которые можно прописать в одном background*/
+	background: url("../../../eye.jpg") fixed rgba(100, 255, 255, 1) repeat-x left bottom;
 	background-size: 300px 300px;
+}
+
+.container .block ul li{ /*вложенные селекторы: то есть данные внутри, а именно: 
+	div class="container"--> div class="block" --> <h1></h1> --> <ul> <li></li> </ul> */;
+	color: yellow;
+}
+.container{
+	text-align: center;
+}
+
+.dog{
+	font-size: 24px;
+}
+.cat{
+	background-color: orange;
+}
+.lack{
+	text-align: center;
+}
+.rich{
+	color: white;
+}
+
+.neighbor h1+p{
+	/* соседний селектор*/
+	/*при использовании такого формата прописи с элементом "+" изменяются свойства тега который стоит после знака "+"*/
+	color: brown;
+	background-color: red;
+}
+
+.neighbor h1~p {
+	/*родственный селектор*/
+	/*"~" - тильда*/
+	/* данный формат писания с тильдой (~) означает что цвета всех <p> стоящих после <h1> изменяются на желтый*/ 
+	/*<div> ломает иерархию так как это отдельный блок */
+	color: yellow;
 }
 
 #heading_1{

@@ -1,3 +1,8 @@
+*{/* *- занк называет астериск изменяет праметры для аобсолютно всех тегов в html(но не для тех тегов/элементов, для которых уже заданы параметры*/
+	font-size: 150px;
+	text-decoration: underline;
+}
+
 .container-3 h1+p{
 	background-color: green;
 	color: yellow;
@@ -28,3 +33,4 @@
 .container-3{
 	padding: 40px 20px;
 }
+

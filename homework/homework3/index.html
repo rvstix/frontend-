@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--комментарий!-->
 	<title>Secret chamber</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
@@ -10,11 +11,35 @@
 		<div class="block">
 			<h1 id="heading_1">Heading 1</h1>
 			<p id="para_1">Para 1</p>
+			<ul> 
+				<li>List1</li>
+				<li>List2</li>
+			</ul>
 		</div>
 		<div class="block">
 			<h1 id="heading_2">Heading 2</h1>
 			<p id="para_2">Para 2</p>
 		</div>
+	</div>
+	<!--мультклассы позволяют изменять данные в CSS при использовании любого количества классов(в данном случае 4 штуки) при это можно ссылаться только на 1 лююой и не будет никаких проблем!-->
+	<div class="dog cat lack rich">
+		<p>Hello World</p>
+		<p>GGG</p>
+	</div>
+	
+	<!--соседний селектор/ родственный селектор!-->
+	<div class="neighbor">
+		<h1>Head 1</h1>
+		<p>Para 1</p>
+		<p>Para 2</p>
+		<h1>Head 2</h1>
+		<p>Para 3</p>
+		<div>
+			<p>Para 3_1</p>
+			<p>Para 3_2</p>
+		</div>
+		<p>Para 4</p>
+		<p>Para 5</p>
 	</div>
 </body>
 </html>
