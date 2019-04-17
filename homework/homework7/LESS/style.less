@@ -1,0 +1,50 @@
+@var: @a;
+@a: 20px;
+@temp_color: ~"pink";
+.container{
+	.menu {
+		li{
+			color: @temp_color;
+			a {
+				font-size: @a;
+			}
+		}
+	}
+}
+
+.style {
+	background-color: pink;
+	color: white;
+	padding: 10px;
+}
+.container {
+	p {
+		// &:extend(.style);
+		.mixin(50px, fuchsia, darkslategrey);
+	}
+	h1{
+		.mixin(50px);
+	}
+}
+.mixin(@a, @b, @c) {
+	font-size: @a;
+	color: @b;
+	background-color: @c;
+}
+.mixin(@a) when (@a=20px) {
+	font-size: @a;
+}
+.mixin(@a) when (@a>20px) {
+	color: orange;
+	font-family: verdana;
+	font-style: italic;
+}
+.mixin(@a) when (@a<20px) {
+	color: red;
+	font-family: roboto;
+	font-style: bold;
+}
+
+
+// & амперснат это вызывает наследование 
+// .mixin  в нем можно дополнительно задавать еще значения то они не константы как в наследовании 

@@ -1,0 +1,17 @@
+.container .menu li {
+  display: inline-block;
+}
+.container .menu li a:link {
+  text-decoration: none;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+}
+.container .menu li a:active {
+  font-size: 30px;
+}
+.container .menu li a:hover {
+  background-color: green;
+}
+
+/*# sourceMappingURL=reset.css.map */

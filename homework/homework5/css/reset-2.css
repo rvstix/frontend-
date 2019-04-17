@@ -1,0 +1,38 @@
+.container .menu li {
+  display: inline-block;
+}
+.container .menu li a:link {
+  text-decoration: none;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+}
+.container .menu li a:active {
+  font-size: 30px;
+}
+.container .menu li a:hover {
+  background-color: green;
+}
+
+#h1_3, #h1_2, #h1_1 {
+  left: 40px;
+  position: relative;
+  text-decoration: underline;
+}
+
+#h1_1 {
+  color: red;
+  font-size: 44px;
+}
+
+#h1_2 {
+  color: orange;
+  font-size: 110px;
+}
+
+#h1_3 {
+  color: green;
+  font-size: 32px/4;
+}
+
+/*# sourceMappingURL=reset-2.css.map */
