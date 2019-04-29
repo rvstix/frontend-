@@ -1,0 +1,241 @@
+.img2 {
+  left: -85px;
+  top: 1px;
+  position: relative;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  width: 1200px;
+  text-align: center;
+}
+.container-1 {
+  margin-top: -20px;
+}
+.container-1 .menu {
+  background-color: black;
+  padding: 40px;
+}
+.container-1 .menu .img-2 {
+  left: -85px;
+  top: 1px;
+  position: relative;
+}
+.container-1 .menu .img-1 {
+  left: -65px;
+  position: relative;
+}
+.container-1 .menu .img-3 {
+  bottom: 10px;
+  left: 250px;
+  position: relative;
+}
+.container-1 .menu .img-4 {
+  bottom: 17px;
+  left: 265px;
+  position: relative;
+}
+.container-1 .menu .img-5 {
+  bottom: 19px;
+  left: 280px;
+  position: relative;
+}
+.container-1 .menu li {
+  left: 50px;
+  bottom: 20px;
+  position: relative;
+  font-family: Verdana;
+  display: inline-block;
+}
+.container-1 .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-right: 20px;
+}
+.container-2 {
+  margin-top: -16px;
+  background-repeat: no-repeat;
+  height: 625px;
+  width: 982px;
+}
+.container-2 .img-6 {
+  width: 100%;
+}
+.container-2 .details {
+  text-align: center;
+  background-color: black;
+  left: 515px;
+  top: -180px;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  padding-top: 18px;
+}
+.container-2 .details a {
+  color: white;
+  text-decoration: none;
+  font-family: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+.container-3 {
+  text-align: center;
+  padding-top: 150px;
+}
+.container-3 h1 {
+  font-family: Verdana;
+  font-size: 48px;
+}
+.container-3 p {
+  font-family: Verdana;
+  padding-bottom: 50px;
+}
+.container-3 .img-7 {
+  left: 1000px;
+}
+.container-4 {
+  padding-top: 150px;
+}
+.container-4 .img-9 {
+  left: 320px;
+  position: relative;
+}
+.container-4 .img-10 {
+  left: 640px;
+  position: relative;
+}
+.container-4 .img-11 {
+  left: 960px;
+  position: relative;
+}
+.container-4 .img-12 {
+  left: 1280px;
+  position: relative;
+}
+.container-4 .img-13 {
+  top: -80px;
+  left: -550px;
+  position: relative;
+}
+.container-4 .img-14 {
+  top: -80px;
+  left: 900px;
+  position: relative;
+}
+.container-5 {
+  text-align: center;
+  padding-top: 50px;
+}
+.container-5 h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 24px;
+}
+.container-6 {
+  padding-top: 150px;
+}
+.container-6 .img-16 {
+  max-width: 100%;
+}
+.container-6 h1 {
+  top: -700px;
+  left: 250px;
+  position: relative;
+}
+.container-6 p {
+  top: -650px;
+  left: 250px;
+  position: relative;
+}
+.container-7 {
+  text-align: center;
+  top: -250px;
+  position: relative;
+}
+.container-7 h1 {
+  font-size: 48px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+.container-7 .img-17 {
+  left: 1000px;
+}
+.container-8 {
+  top: -150px;
+  position: relative;
+  left: 380px;
+}
+.container-8 .menu-2 {
+  lidisplay: inline-block;
+  text-decoration: none;
+  padding-right: 50px;
+}
+.container-8 .menu-3 {
+  position: relative;
+}
+.container-8 .menu-3 li {
+  display: inline-block;
+  text-decoration: none;
+}
+.container-8 .menu-3 li .img-23 {
+  left: 55px;
+  position: relative;
+}
+.container-8 .menu-3 li .img-24 {
+  left: 115px;
+  position: relative;
+}
+.container-8 .menu-3 li .img-25 {
+  left: 210px;
+  position: relative;
+}
+.container-9 {
+  background-color: black;
+  height: 500px;
+}
+.container-9 .menu-4 {
+  position: relative;
+  left: 390px;
+  top: 100px;
+}
+.container-9 .menu-4 li {
+  color: white;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  padding-right: 170px;
+}
+.container-10 .menu-5 li {
+  top: -370px;
+  left: 390px;
+  position: relative;
+}
+.container-10 .menu-5 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana;
+}
+.container-10 .menu-6 li {
+  top: -495px;
+  left: 665px;
+  position: relative;
+}
+.container-10 .menu-6 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana;
+}
+.container-10 .menu-7 li {
+  top: -655px;
+  left: 910px;
+  position: relative;
+  acolor: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana;
+}

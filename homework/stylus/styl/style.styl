@@ -1,0 +1,116 @@
+.content {
+	text-align: center;
+	background-color: orange;
+	padding: 10px;
+	margin-bottom: 80px
+}
+.content ul li a{
+	text-decoration: none;
+	color: red
+}
+
+box-shadow()
+	-webkit-box-shadow arguments
+	-moz-box-shadow arguments
+	box-shadow arguments
+	& .content-box-shadow
+		border 2px solid arguments[length(arguments)-1]	
+
+list= 15px 30px 50px 
+// отчет начинается с 0 - поэтому если вставить в лисет 2 то выберет 50
+// если вставить отрицательное значение то будет отчет идьти с конца
+// максимальное количество переменных 3
+// list[] - это subscript, массив - блок переменных в нашем случае их 3 
+
+.container {
+	.content {
+		reusable_padding: 10px
+		p {
+			// font-size: list[-1]
+			padding: 10 + @reusable_padding
+		}
+	}
+	.content2 {
+		.block {
+			.block2 {
+				// ^[0] p{
+				// ^[2..3] p {
+				~/ p{
+					color: green			
+					}
+				}
+			}
+		}
+	}
+
+
+// ^[n] - partial reference ссылается на контейнер: если n=0 то только на container, если n=1 то на content2, если n=2 то block, если n=3 то block2
+// если будет больше иерархий соответсвенно от 0 до n-1
+// ^[1..2] ссылается только на content2 и block(в зависимости от n ссылается на разные классы)
+
+// ~/ тоже самое что и ^[0]
+// box-shadow 1px 1px 3px #eee	
+
+// font= 12px Arial, sans-serif
+// 	p
+// 		font font
+
+font-custom(props, args)
+	{props} 50px Arial
+	left: args
+	position: relative		
+
+// myselectors= '#P1_1, #P1_2'
+// {myselectors}
+// 	color: navy
+	
+vendor(props, args)
+	-webkit-{props} args
+	-moz-{props} args
+	{props} args
+border-radius()
+	vendor('border-radius', arguments)
+.container
+	box-shadow 1px 1px 3px #eee
+	.content
+		p
+			border-radius 20px
+			background-color: black
+			color: white
+			for row in 1..2
+				// for row то же что и for each
+				&:nth-of-type({row})
+					text-decoration: underline
+			font-custom('font', 60px)
+					
+// border-radius это mixin с нулевым аргументом
+// vendor - это mixin, имеет 2 перерменные props-объект и args
+
+floating-text(float_pos, text_dec, text_col) {
+	{float_pos} left;
+	text-decoration: text_dec;
+	color: text_col;
+}
+function(a, b) 
+	if (a==!1)
+		b+b*2
+		// булева алгебра всегда использует "is" вместо равно
+	else if (a>b)
+		a+b
+	else if (a==b)
+		a*b
+	else if (a==2)
+		a**7
+		// ** это экспоненты - то есть а умножается на себя 7 раз а^7
+		// 7%3 при делении пишет только остаток (то есть 1)
+		//  7/3 тупо решает деление
+	else
+		a-b
+.container {
+	.content2 {
+		floating-text('float', underline, red);
+		font-size: function(false, 12)px;
+	}
+}
+
+

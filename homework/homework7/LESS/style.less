@@ -20,10 +20,21 @@
 .container {
 	p {
 		// &:extend(.style);
-		.mixin(50px, fuchsia, darkslategrey);
+		// .mixin(50px, fuchsia, darkslategrey);
+		// .mixin1(40px, green);
+		// .mixin2(50px);
+		// left: abs(-40px);
+		// abs-absolute изменяет отрицательные значения на положительные 
+		// font-size: min(50px; 40px; 5px);
+		// фунткция min/max присваивает минимальное/макисмальное значение
+		padding: range(20px, 40px, 10);
+		// range футнкция задает границы (20px начало, 40px конец 10 шаг - то есть 20,30,40),соответсвенно сверху 20, слева/справа 30, низ 40
+		//  но он ограничен - к примеру в padding всего 4 значения (верх, лево, право, низ)
+		background-color: red;
 	}
 	h1{
-		.mixin(50px);
+		// .mixin(50px);
+		.mixin1(30px);
 	}
 }
 .mixin(@a, @b, @c) {
@@ -48,3 +59,29 @@
 
 // & амперснат это вызывает наследование 
 // .mixin  в нем можно дополнительно задавать еще значения то они не константы как в наследовании 
+
+
+.mixin1(@a; @b) when (isnumber(@a)) {
+	font-size: @a;
+	color: @b;
+}
+.mixin1(@a) when (isnumber(@a)) and (@a>20px) {
+	font-size: @a;
+}
+
+.mixin2(@a; @b:  navy) when (iscolor(@b)) {
+	font-size: @a;
+	color: @b;
+}
+
+// each function
+
+@selectors: #p1_1, #p1_2, #p1_3;
+each(@selectors, {
+	@{value} {
+		text-decoration: underline;
+		color: purple;
+		font-size: 29px;
+	}
+});
+

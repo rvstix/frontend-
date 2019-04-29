@@ -12,6 +12,9 @@ npm i -g less less-watch-compiler
 less-watch-compiler less css
 scope: нет разницы в последовательности, охватытвает весьб код less и найдет необходимую переменную(даже если переменная находится в залупинске)
 
+Stylus чтобы скомпилировать
+stylus -w styl -o css
+
 
 Движок
 unity           	        	   /            	unreal engine 4
