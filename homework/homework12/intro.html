@@ -6,6 +6,15 @@
 	<body>
 		<h1>Today's lesson is Javascript</h1>
 		<p>We will cover basics such as variables, functions, data types, objects, outputs</p>
+
+		<p id='changetext'>I'm glad to see you</p>
+		<button onclick="changeP()">Change</button>
+
+	<form>
+		<input id='text_name' type='text' placeholder="Enter your name" onchange="changeFieldColor(this.id)">
+		<input id='text_email' type='email' placeholder="Enter your email" onchange="changeFieldColor(this.id)">
+		<input id="text_address" type="text" placeholder="Enter your address" onchange="changeFieldColor(this.id)">
+	</form>
+
 	</body>
-	
 </html>

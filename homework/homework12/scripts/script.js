@@ -1,3 +1,5 @@
+//  Домашка 12
+
 // Задание а
 
 document.write("Hello!");
@@ -35,3 +37,48 @@ var c="Third rule of JS Club: ", d="if someone yells 'STOP!', ", x="goes limp, o
 console.log(c+''+d+''+x);
 var q="Fourth rule: ", w="only two guys to a code."
 console.log(q+''+w);
+
+
+
+//  Домашка 13
+// Задание а
+
+
+var lesson={
+	name:"Chemistry",
+	class_id: 103,
+	id: 192,
+	details: function(){
+		return 'This semester your lesson would be '+this.name+' with an ID '+this.id;
+	}
+};
+
+console.log(lesson.details());
+
+
+
+// Задание b
+
+
+var animals=["Rat","Cow","Horse","Dog","Cat"];
+console.log(animals.sort());
+console.log(animals.reverse());
+
+// Задание с
+
+var numbers=[4,88,12,9,100,33];
+console.log(numbers.sort(function(a,b){return a-b}));
+console.log(numbers.sort(function(a,b){return b-a}));
+
+// Задание d
+
+function  changeP(){
+	document.getElementById('changetext').innerHTML='Welcome to JS Course';
+}
+
+
+// Задание e
+
+function changeFieldColor(event){
+	document.bgColor=document.getElementById(event).value;
+}
