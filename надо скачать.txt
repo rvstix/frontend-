@@ -16,6 +16,25 @@ Stylus чтобы скомпилировать
 stylus -w styl -o css
 
 
+
+WAMP - windows apache MySQL(дл€ создани€ базы данных) Php(бэкенд самый попул€рный Laravel (есть еще Yii, Zenda их еще дофига))
+LAMP - Linux ... 
+MAMP - Mac OS ...
+
+≈сли удалилс€ wamp - нужно найти гид по установке
+
+
+api request - запросы/ по запросам общаетс€ и фронтенд и бэкенд
+application programming interface 
+есть два самых попул€рных GET(достает и выводит на экран) & POST(добавление новых записей и сохран€ет)
+еще update & delete
+
+
+альтернатива фотошопа сайт photopea.com
+
+
+
+
 ƒвижок
 unity           	        	   /            	unreal engine 4
 +25 platform							+10 platforms

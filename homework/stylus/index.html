@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Hi</title>
+	<script src="scripts/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -20,5 +21,12 @@
 		<p>Para 1</p>
 	</div>
 </div>
+	<button onclick="showMessage()">Show Message</button>
+	<p id='changeTxt'>Dude</p>
+	<button onclick="changeHTMLtext()">Change</button>
+	<form>
+		<input id='text_name' type='text' placeholder="Enter your name" onchange="changeFieldText(this.id)">
+		<input id='text_email' type='email' placeholder="Enter your email" onchange="changeFieldText(this.id)">
+	</form>
 </body>
 </html>

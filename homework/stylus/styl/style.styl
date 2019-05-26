@@ -94,7 +94,8 @@ floating-text(float_pos, text_dec, text_col) {
 function(a, b) 
 	if (a==!1)
 		b+b*2
-		// булева алгебра всегда использует "is" вместо равно
+		// булева алгебра (ture/false) всегда использует "is" вместо равно
+		// a==!1 то же самое что и a is not true (1==true/not false, 0==false/not true, ! - инвертор (-1)
 	else if (a>b)
 		a+b
 	else if (a==b)
